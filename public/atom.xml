@@ -4,7 +4,7 @@
   <title><![CDATA[Andrew's Musings]]></title>
   <link href="http://www.andrewenfield.com/atom.xml" rel="self"/>
   <link href="http://www.andrewenfield.com/"/>
-  <updated>2012-06-10T16:43:12-07:00</updated>
+  <updated>2012-06-10T20:27:55-07:00</updated>
   <id>http://www.andrewenfield.com/</id>
   <author>
     <name><![CDATA[Andrew Enfield]]></name>
@@ -12,5 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Press restart]]></title>
+    <link href="http://www.andrewenfield.com/blog/2012/06/10/press-restart/"/>
+    <updated>2012-06-10T20:13:00-07:00</updated>
+    <id>http://www.andrewenfield.com/blog/2012/06/10/press-restart</id>
+    <content type="html"><![CDATA[<p>I had a blog in 2003 and 2004. I started it because I happened upon a blog engine written using ASP.NET (<a href="http://dasblog.codeplex.com">http://dasblog.codeplex.com</a>), and I thought it&#8217;d be cool to see how the engine worked under the covers. I posted occasionally at <a href="http://enfieldfamily.com">http://enfieldfamily.com</a>. The most popular post was, I think, a &#8220;here&#8217;s how you fix&#8221; something entry - I can&#8217;t remember for what - that came up first or second in searches. When I changed jobs toward the end of 2004 I started doing work that wasn&#8217;t going to generate posts, and the blog went dead.</p>
+
+<p>Now, eight years later, I&#8217;ve <a href="http://www.peterprovost.org/blog/2012/04/15/switching-the-blog-to-octopress/">read about another blog engine</a> that looks interesting, in part because the guts are visible (<a href="http://octopress.org">http://octopress.org</a>). My job is also now such that I may have things worth writing down. So I&#8217;ll try it again.</p>
+
+<p>Some possible upcoming posts: credit where credit&#8217;s due for Octopress, which is pretty cool; info from the trenches about MSBuild, TFS, and ClickOnce projects.</p>
+]]></content>
+  </entry>
   
 </feed>

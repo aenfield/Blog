@@ -1,0 +1,8 @@
+Just a note to my future self:
+When I rebooted this blog in mid-2014, I wanted to update the Octopress code I had in my own blog repository on GitHub to the latest code from the main Octopress repository. To do this, I added a new remote to my local repository - specifically, my .git/config file now contains these lines:
+**
+[remote "octopress"]
+	url = https://github.com/imathis/octopress.git
+	fetch = +refs/heads/*:refs/remotes/octopress/*
+**
+Then, if I recall correctly, I did a git pull octopress master, resolved the merge conflicts (I think only in the _config.yml file) and, per http://octopress.org/docs/updating/, did a bundle install and updated the source and styles. I ran rake preview and everything worked. Upon attempting to deploy to Heroku, I discovered the Gemfile.lock file had been removed - I think by the update - and so I modified .gitignore to pull it back in, since Heroku requires this, and then the Heroku app deployed fine too.
